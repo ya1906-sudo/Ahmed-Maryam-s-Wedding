@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<main>
+
+    <!-- Welcome Screen -->
+    <section class="welcome-screen" id="welcomeScreen">
+
+        <div class="welcome-content">
+
+            <p class="welcome-subtitle">A SPECIAL INVITATION</p>
+
+            <h1>You're Invited</h1>
+
+            <div class="welcome-divider"></div>
+
+            <!-- <p class="welcome-names">
+                Groom Name & Bride Name
+            </p>
+
+            <p class="welcome-date">
+                01 JANUARY 2027
+            </p> -->
+
+            <button id="enterButton" aria-label="Open wedding invitation">
+
+                <span class="bow">
+                    <span class="bow-loop bow-left"></span>
+                    <span class="bow-loop bow-right"></span>
+                    <span class="bow-knot"></span>
+                    <span class="bow-tail bow-tail-left"></span>
+                    <span class="bow-tail bow-tail-right"></span>
+                </span>
+
+                <span class="enter-text">UNTIE TO BEGIN</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Floating Flowers -->
+<div class="flowers-container" id="flowersContainer"></div>
+    <!-- Main Wedding Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="subtitle">TOGETHER WITH THEIR FAMILIES</p>
+
+            <h1>
+                Ahmed
+                <span>&</span>
+                Maryam
+            </h1>
+
+            <p class="invitation-text">
+                INVITE YOU TO CELEBRATE THEIR WEDDING
+            </p>
+
+            <p class="wedding-date">
+                26 NOVEMBER 2026
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Wedding Location Section -->
+    <section class="location-section" id="location">
+
+        <div class="location-content">
+
+            <div class="section-divider">
+                <span>✦</span>
+            </div>
+
+            <p class="location-subtitle">JOIN US TO CELEBRATE</p>
+
+            <h2>Find Our Venue</h2>
+
+            <div class="location-divider"></div>
+
+
+            <!-- Venue Information -->
+            <div class="venue-info">
+
+                <p class="venue-label">THE WEDDING VENUE</p>
+
+                <h3>TARACINA</h3>
+
+                <!-- <p>Write the full venue address here</p> -->
+
+            </div>
+
+
+            <!-- Directions -->
+            <div class="directions-container">
+
+                <div class="direction-card">
+
+                    <span class="direction-number">01</span>
+
+                    <h3>من المنيب</h3>
+
+                    <p>
+                        ميكروباص ل منيل شيحه عند محطة المدرسة
+                        توكتوك ل نادي حسام عاشور قاعه تراسينا
+                    </p>
+
+                </div>
+
+
+                <div class="direction-card">
+
+                    <span class="direction-number">02</span>
+
+                    <h3>من الكورنيش</h3>
+
+                    <p>
+                        مرسي النهر الخالد نزله اول كبرى طره
+بوابة رقم ٣ رايحه قاعه تراسينا      
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Google Maps -->
+            <a
+                href="https://maps.app.goo.gl/rorj6434piH3Jhgy8"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="map-button">
+
+                OPEN LOCATION IN GOOGLE MAPS
+                <span>↗</span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Background Music -->
+    <audio id="weddingAudio" loop>
+        <source src="audio/wedding-song.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Music Control -->
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle music">
+        ♫
+    </button>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
